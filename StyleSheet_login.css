@@ -1,0 +1,171 @@
+﻿.border
+{
+    border: 1px solid  black;
+}
+body
+{
+    background:#FFF7E7;
+}
+
+#frame
+{
+    width: 800px;
+    min-height:98%;
+    position: absolute;
+    left: 50%;
+    margin-left:-400px;
+    padding: 1px;
+    background-image: url('image/bgbody.jpg');
+    top: 15px;
+}
+#title
+{
+    position: absolute;
+    font-family: "文鼎海報體", "微軟正黑體";
+    font-size: 48px;
+    left:180px;
+    top: 20px;
+    width: 328px;
+    line-height: 64px;
+    color: #371C1C;
+}
+.header
+{
+    height: 80px;
+    margin-top:5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 10px;
+    background-image:url(./image/bg.gif);
+    border-radius:25px;
+}
+#headerImage
+{
+    position: absolute;
+    top:18px;
+    left:65px;
+    border-radius:10px;
+}
+.login
+{
+    float:right;
+    top:50px;
+    box-shadow: -5px 5px 10px #CCB299;
+}
+#my_div{
+    width:500px;
+    margin-left:115px;
+    
+}
+
+.image
+{
+    border-radius:10px;
+    border:5px dotted #DEBA84;
+    
+}
+nav{
+	margin-top:1px;
+}
+ul {
+    list-style-type: none;
+    height: 52px;
+    margin-left: -10px;
+    width: 785px;
+}
+li {
+    float: left;
+    height: 67px;
+}
+ul a {
+    background-image: url(./image/item.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 32px;
+    padding-left: 32px;
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: "微軟正黑體";
+    font-size: 28px;
+    color: #371C1C;
+    border-radius:25px;
+}
+
+.submenu ul a
+{
+    background-image: url(./image/item.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: "微軟正黑體";
+    font-size: 18px;
+    color: #371C1C;
+      border-radius:25px;
+}
+ul a:hover, .submenu ul a:hover
+{
+    color: #FFDF5E;
+}
+
+.itemlink
+{
+    background-image: url(./image/whitepp.jpg);
+    background-repeat: repeat;
+    background-position: right;
+    padding-right: 32px;
+    padding-left: 32px;
+    margin-left:50px;   
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    font-family: "微軟正黑體";
+    font-size: 28px;
+    color: #371C1C;
+    border-radius:25px;
+}
+
+footer {
+    background: none repeat scroll 0 0 #CC99CC;
+    border: 2px solid #999999;
+    bottom: 0;
+    color: #333333;
+    left: 50%;
+    margin-left: -300px;
+    padding: 5px;
+    position: fixed;
+    text-align: center;
+    width: 600px;
+    z-index: 4;
+}
+.subframe
+{
+    width:700px;
+    margin-left:50px;
+    padding:5px;
+}
+.bor
+{
+    border: 5px dashed #DEBA84; 
+    margin:5px; 
+    background:#FFF7E7; 
+    border-radius:10px;
+}
+
+
+#logintb
+{
+    position:absolute;
+    top:520px;
+    left:120px;
+}
+img
+{
+    border-radius:10px;
+    border: 1px solid #DEBA84;
+
+}
